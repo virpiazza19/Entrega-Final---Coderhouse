@@ -186,6 +186,9 @@ footer ul li a:visited {
 footer ul li a:visited .nav-link:visited {
   color: rgb(246, 207, 207);
 }
+footer ul li a:visited .nav-link:active {
+  color: rgb(246, 207, 207);
+}
 
 .footer {
   position: relative;
