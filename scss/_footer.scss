@@ -24,20 +24,16 @@ footer {
 			padding-bottom: 0;
 			border-bottom: 1px solid firebrick;
 			margin-bottom: 0;
+			a {
+				.nav-link {
 
-			&::selection {
-				color: $color_1;
-			}
+					&:visited {
+						color: $color_4;
+					}
 
-			a:visited {
-				color: $color_4;
-
-				.nav-link:visited{
-					color: $color_4;
-				}
-
-				.nav-link:active {
-					color: $color_4;
+					&:target {
+						color: $color_4;
+					}
 				}
 			}
 		}

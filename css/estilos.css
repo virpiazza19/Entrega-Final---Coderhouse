@@ -177,16 +177,10 @@ footer ul li {
   border-bottom: 1px solid firebrick;
   margin-bottom: 0;
 }
-footer ul li::selection {
-  color: white;
-}
-footer ul li a:visited {
+footer ul li a .nav-link:visited {
   color: rgb(246, 207, 207);
 }
-footer ul li a:visited .nav-link:visited {
-  color: rgb(246, 207, 207);
-}
-footer ul li a:visited .nav-link:active {
+footer ul li a .nav-link:target {
   color: rgb(246, 207, 207);
 }
 
