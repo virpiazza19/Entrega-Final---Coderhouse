@@ -8,9 +8,11 @@
 .py-3 {
 	@include bootstrap;
 }
+
 .my-4 {
 	@include bootstrap;
 }
+
 .text-center {
 	@include bootstrap;
 }
@@ -22,6 +24,18 @@ footer {
 			padding-bottom: 0;
 			border-bottom: 1px solid firebrick;
 			margin-bottom: 0;
+
+			&::selection {
+				color: $color_1;
+			}
+
+			a:visited {
+				color: $color_4;
+
+				.nav-link:visited{
+					color: $color_4;
+				}
+			}
 		}
 	}
 }

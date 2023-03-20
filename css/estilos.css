@@ -21,7 +21,7 @@ body {
   font-family: "Staatliches", cursive;
   text-align: center;
   margin: 5px 10%;
-  font-size: 50px;
+  font-size: 3.5rem;
   color: whitesmoke;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
   border-bottom: 2px solid black;
@@ -43,7 +43,7 @@ p {
 .subtituloGeneral {
   font-family: "Roboto", sans-serif;
   margin: 5px 10%;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   color: whitesmoke;
   text-align: center;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
@@ -52,7 +52,7 @@ p {
 .underSubtituloGeneral {
   font-family: "Roboto", sans-serif;
   margin: 5px 10%;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   color: whitesmoke;
   text-align: center;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
@@ -177,6 +177,15 @@ footer ul li {
   border-bottom: 1px solid firebrick;
   margin-bottom: 0;
 }
+footer ul li::selection {
+  color: white;
+}
+footer ul li a:visited {
+  color: rgb(246, 207, 207);
+}
+footer ul li a:visited .nav-link:visited {
+  color: rgb(246, 207, 207);
+}
 
 .footer {
   position: relative;
@@ -295,6 +304,7 @@ footer ul li {
 .divContacto p {
   width: 80%;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .formDiv {
