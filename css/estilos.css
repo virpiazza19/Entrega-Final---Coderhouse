@@ -251,6 +251,10 @@ footer ul li a .nav-link:target {
   color: whitesmoke;
   margin-bottom: 40px;
 }
+.divPreguntas p {
+  margin-top: 5px;
+  padding: 0 15%;
+}
 
 /* ********* ENVÍOS COMPONENTES ********* */
 .divEnvios {
@@ -260,6 +264,10 @@ footer ul li a .nav-link:target {
   text-align: justify;
   color: whitesmoke;
   margin-bottom: 40px;
+}
+.divEnvios p {
+  margin-top: 5px;
+  padding: 0 15%;
 }
 
 .logos {
